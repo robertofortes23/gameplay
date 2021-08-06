@@ -9,7 +9,8 @@ export function SignIn () {
   return(
     <View style={styles.container}>
       <Image source={IllustrationImg} style={styles.image}/>
-      <View style={styles.container}>
+
+      <View style={styles.content}>
         <Text style={styles.title}>
           Organize {`\n`}
           suas jogatinas {`\n`}
