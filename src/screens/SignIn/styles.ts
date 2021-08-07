@@ -9,15 +9,22 @@ export const styles = StyleSheet.create({
         backgroundColor: theme.colors.background,
     },
     content: {
-
+        marginTop: -80
     },
     image: {
-
+        width: '100%',
+        height: 360
     },
     title: {
-
+        color: theme.colors.heading,
+        textAlign: 'center',
+        fontSize: 40,
+        marginBottom: 16,
     },
     subtitle: {
-
+        color: theme.colors.heading,
+        fontSize: 15,
+        textAlign: 'center',
+        marginBottom: 64
     }
 })
