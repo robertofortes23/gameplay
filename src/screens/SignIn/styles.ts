@@ -9,7 +9,8 @@ export const styles = StyleSheet.create({
         backgroundColor: theme.colors.background,
     },
     content: {
-        marginTop: -80
+        marginTop: -80,
+        paddingHorizontal: 50
     },
     image: {
         width: '100%',
