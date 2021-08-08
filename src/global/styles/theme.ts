@@ -1,17 +1,16 @@
 export const theme = {
   colors: {
     primary: '#E51C44',
-    background: '#751815',
 
-    secondary100: '#0A1033',
-    secondary90: '#0D133D',    
-    secondary80: '#0E1647',
-    secondary85: '#171F52',
-    secondary70: '#1B2565', 
-    secondary60: '#1B2565',
-    secondary50: '#243189', 
-    secondary40: '#1D2766', 
-    secondary30: '#495BCC', 
+    secondary100: '#330a0a',
+    secondary90: '#3d0d0d',    
+    secondary80: '#470e0e',
+    secondary85: '#470e0f',
+    secondary70: '#651b1b', 
+    secondary60: '#651b1b',
+    secondary50: '#751815', 
+    secondary40: '#661d1d', 
+    secondary30: '#cc4949', 
    
     overlay: 'rgba(0,0,0,0.7)',
     highlight: '#ABB1CC',
