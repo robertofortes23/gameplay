@@ -13,6 +13,9 @@ cd gameplay
 npm i
 expo start
 ```
-
    [React Native]: <https://reactnative.dev/>
    [Expo]: <https://expo.dev/>
+
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/E2RODzF.png)
