@@ -18,4 +18,4 @@ expo start
 
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/E2RODzF.png)
+![App Screenshot](https://i.imgur.com/ioTniQF.png)
