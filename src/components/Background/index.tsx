@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
-import { View, Text } from 'react-native';
-
 import { styles } from './styles';
 import { theme } from '../../global/styles/theme';
 
-export function Background() {
+interface Props {
+  children: ReactNode;
+}
+
+export function Background({children}: Props) {
+  const { secondary40, secondary60 } = theme.colors;
   return (
     <LinearGradient
       style={styles.container}
-      colors={[theme.colors.secondary80, theme.colors.secondary100]}
+      colors={[secondary60, secondary40]}
     >
+      {children}
     </LinearGradient>
   );
 }

@@ -6,10 +6,9 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: theme.colors.secondary50,
   },
   content: {
-    marginTop: -80,
+    marginTop: -60,
     paddingHorizontal: 50,
   },
   image: {
