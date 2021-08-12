@@ -4,12 +4,13 @@ import { theme } from '../../global/styles/theme'
 export const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
+    alignItems: "center"
   },
   user: {
     flexDirection: "row",
   },
   greeting: {
-    fontFamily: theme.fonts.text500,
+    fontFamily: theme.fonts.title500,
     fontSize: 24,
     color: theme.colors.heading,
     marginRight: 4,
