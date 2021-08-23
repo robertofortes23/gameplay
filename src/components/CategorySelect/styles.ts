@@ -3,7 +3,8 @@ import { theme } from '../../global/styles/theme'
 
 export const styles = StyleSheet.create({
   container: {
-    minHeight: 160,
-    maxHeight: 160,
+    minHeight: 140,
+    maxHeight: 140,
+    paddingLeft: 24
   },
 });

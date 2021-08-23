@@ -8,27 +8,27 @@ import { styles } from './styles';
 
 type Props = {
     categorySelected: string;
+    setCategory: (categoryId: string) => void
 }
 
 
-export function CategorySelect({ categorySelected }: Props) {
+export function CategorySelect({ categorySelected, setCategory }: Props) {
   return (
-      <ScrollView
-        horizontal
-        style={styles.container}
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={{ padding: 40 }}
-      >
-        {
-            categories.map(category => (
-                <Category 
-                 key={category.id}
-                 title={category.title}
-                 icon={category.icon}
-                 checked={category.id === categorySelected}
-                />
-            ))
-        }
-      </ScrollView>
+    <ScrollView
+      horizontal
+      style={styles.container}
+      showsHorizontalScrollIndicator={false}
+      contentContainerStyle={{ paddingRight: 40 }}
+    >
+      {categories.map((category) => (
+        <Category
+          key={category.id}
+          title={category.title}
+          icon={category.icon}
+          checked={categorySelected === category.id.toString()}
+          onPress={()=> setCategory(category.id.toString())}
+        />
+      ))}
+    </ScrollView>
   );
 }
